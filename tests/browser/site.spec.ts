@@ -10,7 +10,7 @@ test('home, mobile navigation, real content and accessibility',async({page},test
   if(await toggle.isVisible())await toggle.click();
   await page.getByRole('navigation',{name:'Hoofdnavigatie'}).getByRole('link',{name:'Juridische hulp',exact:true}).click();
   await expect(page).toHaveURL(/juridische-hulp$/);
-  await page.getByRole('link',{name:/01 Huurrecht/}).click();
+  await page.getByRole('link',{name:/Huurrecht/}).click();
   await expect(page).toHaveURL(/\/juridische-hulp\/huurrecht$/);
   await page.getByRole('link',{name:/Wanneer heeft de verhuurder/}).click();
   await expect(page).toHaveURL(/opzegging-door-verhuurder$/);

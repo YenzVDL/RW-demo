@@ -8,7 +8,12 @@ import {isApproved} from '@/lib/policy.mjs';
 import {LanguageSwitch,Navigation,Media} from './interface';
 
 export function Arrow(){return <span aria-hidden="true">↗</span>;}
-function PhoneIcon(){return <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true"><path d="M7 3H4a1 1 0 0 0-1 1c0 9.4 7.6 17 17 17a1 1 0 0 0 1-1v-3l-5-2-2 2a15 15 0 0 1-7-7l2-2-2-5Z"/></svg>;}
+export function PhoneIcon(){return <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true"><path d="M7 3H4a1 1 0 0 0-1 1c0 9.4 7.6 17 17 17a1 1 0 0 0 1-1v-3l-5-2-2 2a15 15 0 0 1-7-7l2-2-2-5Z"/></svg>;}
+function LegalSymbol({category}:{category?:string}){
+  return <svg className="legal-symbol" viewBox="0 0 80 80" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    {category==='huurrecht'?<><path d="m9 34 31-23 31 23M17 29v39h46V29M33 68V48h15v20M26 36h5m18 0h5"/><path d="M5 73h69"/></>:category==='arbeidsrecht'?<><path d="M12 28h56v39H12zM29 28V17h22v11M12 42l28 9 28-9M36 46v11h8V46"/><path d="M7 73h67"/></>:<><path d="M22 11h37v58l-6-4-6 4-6-4-6 4-6-4-7 4V11Z"/><path d="M30 25h21M30 35h21M30 47h10M47 47h4M13 20v44"/></>}
+  </svg>;
+}
 export function Review({unit,en=false}:{unit?:Unit;en?:boolean}) {
   if(!unit||isApproved(unit))return null;
   const labels={source_imported:en?'Existing text — pending review':'Bestaande tekst — nog te controleren',needs_confirmation:en?'To be confirmed':'Te bevestigen',proposed:en?'Proposed text':'Tekstvoorstel',approved:''};
@@ -37,7 +42,7 @@ export function Footer({site,en}:{site:SiteData;en:boolean}) {
   return <footer className="site-footer"><div className="wrap"><div className="footer-top"><div><p className="eyebrow">STICHTING RECHTSWINKEL AMSTERDAM</p><p className="footer-heading">{en?'Legal advice.':'Juridisch advies.'}<br/>{en?'Completely free of charge.':'Geheel gratis.'}</p></div><div><h2>{en?'Contact':'Spreekuur en contact'}</h2>{contact?.address&&<p>{contact.address}</p>}{contact?.phone&&<p><a href={tel(contact.phone)}>{contact.phone}</a></p>}{contact?.email&&<p><a href={`mailto:${contact.email}`}>{contact.email}</a></p>}<Review unit={contact} en={en}/></div><div><h2>{en?'Explore':'Verder lezen'}</h2>{en?<><Link href="/en/contact">Contact & consultation</Link><Link href="/en/about/svra">SVRA</Link></>:<><Link href="/over-ons/team">De medewerkers</Link><Link href="/over-ons/verantwoording">ANBI & jaarverslagen</Link><Link href="/vrijwilliger-worden">Vrijwilliger worden</Link></>}</div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Stichting Rechtswinkel Amsterdam</span><div><Link href="/privacyverklaring">Privacyverklaring{en?' (Dutch)':''}</Link><Link href="/algemene-voorwaarden">Algemene voorwaarden{en?' (Dutch)':''}</Link></div></div></div></footer>;
 }
 export function Areas({site}:{site:SiteData}) {
-  return <div className="area-list">{site.units.filter(u=>u.kind==='area').map((u,i)=><Link href={u.route} key={u.key} className="area-row"><span className="area-index">0{i+1}</span><div><h3>{u.title}</h3><div className="area-topics">{site.units.filter(x=>x.kind==='article'&&x.category===u.category).slice(0,2).map(x=><span key={x.key}>{x.title}</span>)}</div><Review unit={u}/></div><span className="area-arrow"><Arrow/></span></Link>)}</div>;
+  return <div className="area-list">{site.units.filter(u=>u.kind==='area').map(u=><Link href={u.route} key={u.key} className="area-row"><LegalSymbol category={u.category}/><div className="area-label"><h3>{u.title}</h3><Review unit={u}/></div><div className="area-topics">{site.units.filter(x=>x.kind==='article'&&x.category===u.category).slice(0,1).map(x=><span key={x.key}>{x.title}</span>)}</div><span className="area-arrow"><Arrow/></span></Link>)}</div>;
 }
 export function Partners({site}:{site:SiteData}){
   const partners=site.units.filter(u=>u.kind==='partner');

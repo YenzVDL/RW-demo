@@ -5,6 +5,7 @@ import {Header,Footer} from '@/components/site';
 import {LegacyAnchors,NoticeList} from '@/components/interface';
 import {richtext} from '@/lib/richtext';
 import './globals.css';
+import './identity.css';
 export const dynamic='force-dynamic';
 export async function generateMetadata():Promise<Metadata>{return {metadataBase:new URL(siteUrl()),title:{default:'Rechtswinkel Amsterdam · Gratis juridisch advies',template:'%s · Rechtswinkel Amsterdam'},robots:production()?{index:true,follow:true}:{index:false,follow:false}};}
 export default async function RootLayout({children}:{children:React.ReactNode}){

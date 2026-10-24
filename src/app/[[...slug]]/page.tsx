@@ -3,8 +3,9 @@ import type {Metadata} from 'next';
 import {notFound} from 'next/navigation';
 import {getSite,unitByKey,production} from '@/lib/content';
 import type {SiteData,Unit} from '@/lib/types';
-import {Arrow,Areas,Partners,Rich,Review,Source,Unavailable,tel,Channel,Board} from '@/components/site';
+import {Arrow,Areas,Rich,Review,Source,Unavailable,tel,Channel,Board} from '@/components/site';
 import {Media} from '@/components/interface';
+import Home from '@/components/home';
 import {isApproved,activeAt} from '@/lib/policy.mjs';
 
 type Props={params:Promise<{slug?:string[]}>};
@@ -16,19 +17,6 @@ export async function generateMetadata({params}:Props):Promise<Metadata>{
   return {title:indexTitles[route]||u?.title||'Informatie',alternates:{canonical:route,languages:u&&translated?.route?{[u.language]:u.route,[translated.language]:translated.route}:undefined},robots:site.unavailable||!production()||!!(u&&!isApproved(u))?{index:false,follow:false}:{index:true,follow:true}};
 }
 function PageHeading({title,eyebrow='RECHTSWINKEL AMSTERDAM',children}:{title:string;eyebrow?:string;children?:React.ReactNode}){return <div className="page-heading"><div className="wrap"><Link className="back" href="/">← Home</Link><p className="eyebrow">{eyebrow}</p><h1>{title}</h1>{children}</div></div>;}
-function Home({site,en}:{site:SiteData;en:boolean}){
-  const intro=unitByKey(site,en?'home-en':'home-intro');const phone=unitByKey(site,'contact');const channel=unitByKey(site,'phone');
-  const about=unitByKey(site,'about-intro');
-  return <>
-    <section className="hero wrap"><div className="hero-copy"><p className="eyebrow"><span className="red-rule"/> STICHTING RECHTSWINKEL AMSTERDAM</p><h1>{en?'Legal advice.':'Juridisch advies.'}<br/><em>{en?'Completely free.':'Geheel gratis.'}</em></h1>{intro&&<div className="hero-intro"><Rich unit={intro} en={en}/></div>}<div className="hero-actions"><Link className="button" href={en?'/en/contact':'/spreekuur-en-contact'}>{en?'Contact & consultation':'Zo krijgt u advies'} <Arrow/></Link>{!en&&<Link className="text-link" href="/juridische-hulp">Waarmee kunnen we helpen? <span aria-hidden="true">↓</span></Link>}</div></div>
-    <aside className="contact-note"><p className="eyebrow">{en?'CONTACT':'BEL MET UW VRAAG'}</p>{phone?.phone?<a className="hero-number" href={tel(phone.phone)}>{phone.phone}<Arrow/></a>:<h2>{en?'Contact information pending review':'Contactgegevens nog te bevestigen'}</h2>}<Review unit={phone} en={en}/>{phone&&!en&&<p className="small-prose">{channel?.schedule}</p>}<div className="contact-note-bottom"><span className="mini-icon" aria-hidden="true">↳</span><Link href={en?'/en/contact':'/spreekuur-en-contact'}>{en?'Consultation on location':'Liever langskomen?'}<span>{en?'View contact information':'Bekijk spreekuur en contact'} <Arrow/></span></Link></div></aside></section>
-    {!en&&<><section className="legal-section"><div className="wrap legal-grid"><div className="section-intro"><p className="eyebrow">JURIDISCHE HULP</p><h2>Waar gaat<br/>uw vraag over?</h2><p>Arbeidsrecht, huurrecht en consumentenrecht.</p><Review unit={unitByKey(site,'area-huurrecht')}/></div><Areas site={site}/></div></section>
-    <section className="wrap how-section"><div className="section-heading"><div><p className="eyebrow">ONZE WERKWIJZE</p><h2>Een eerste stap naar advies.</h2></div><Link href="/spreekuur-en-contact">Alle contactmogelijkheden <Arrow/></Link></div><div className="steps">{['phone','walkin','appointment'].map((key,i)=>{const u=unitByKey(site,key);return u&&<article key={key}><div className="step-number">0{i+1}<span aria-hidden="true">{['↗','↳','→'][i]}</span></div><h3>{u.title}</h3><Channel unit={u}/></article>;})}</div></section>
-    {about&&<section className="about-band"><div className="wrap about-grid"><div><p className="eyebrow">OVER ONS</p><h2>De Rechtswinkel.<br/> Voor Amsterdam.</h2></div><div><Rich unit={about}/><Link className="text-link" href="/over-ons">Meer over de Rechtswinkel <Arrow/></Link></div></div></section>}
-    <Partners site={site}/></>}
-    {en&&<section className="wrap english-content"><h2>Contact & consultation</h2><p>Labour law · tenancy law · consumer law</p><p className="notice">The Dutch and English source pages contain different consultation details. These details need confirmation.</p><Link className="button" href="/en/contact">View existing contact information <Arrow/></Link><p><Link href="/en/about/svra">Stichting Vrienden Rechtswinkel Amsterdam <Arrow/></Link></p></section>}
-  </>;
-}
 function ArticleList({site,category}:{site:SiteData;category:string}){return <div className="article-list">{site.units.filter(u=>u.kind==='article'&&u.category===category).map(u=><Link key={u.key} href={u.route}><div><h2>{u.title}</h2><Review unit={u}/></div><Arrow/></Link>)}</div>;}
 function PageContent({site,unit,en}:{site:SiteData;unit:Unit;en:boolean}){
   if(unit.kind==='recruitment'&&unit.deadline&&!activeAt(unit))return <><PageHeading title={unit.title}/><section className="wrap english-content"><p>Deze wervingsronde is gesloten.</p></section></>;

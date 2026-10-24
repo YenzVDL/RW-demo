@@ -122,7 +122,7 @@ for(const a of docs$('a[href$=".pdf"]').toArray()) {
 const teamRaw=decode(page(265).content.rendered);
 for(const m of teamRaw.matchAll(/\[vc_single_image[^\]]*image="(\d+)"[^\]]*\][\s\S]*?<strong>([^<]+)<\/strong>/g)) {
   const item=media.find(a=>a.id===Number(m[1])); if(!item) continue;
-  const img=await asset(item.source_url,'Medewerker zoals gekoppeld op /de-medewerkers/',item);
+  const img=await asset(item.source_url,[979,980,978].includes(item.id)?'Medewerker zoals gekoppeld op /de-medewerkers/; afzonderlijk portret ook op de homepage':'Medewerker zoals gekoppeld op /de-medewerkers/',item);
   add(`person-${m[1]}`,page(265),m[2],'','',{kind:'person',image:img,role:'Medewerker',period:'',active:true,editorialStatus:'needs_confirmation'});
 }
 // Board versions remain separate unpublished records. No source is chosen as the current board.

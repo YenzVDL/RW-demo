@@ -36,3 +36,9 @@ De browsertests en CMS-test herstellen hun tijdelijke wijzigingen. De bronwebsit
 ## Lokaal gebruiken
 
 Frontend: `http://127.0.0.1:3000/`. WordPress: `http://localhost:8080/wp-admin/`. Lokale credentials staan uitsluitend in genegeerde env-bestanden. De Windows-runtime bewaart database en media onder `.runtime/`.
+
+## Visuele herziening op verzoek
+
+De homepage is herzien met een drukwerkcompositie, een rode belstrook, ongenummerde onderwerpen, uitklapbare bezoekroutes en drie bestaande afzonderlijke medewerkersportretten. Bestaande inhoud en CMS-statussen zijn behouden. De gebruikscontext van die portretten is in het assetmanifest uitgebreid.
+
+Na deze wijziging zijn typecheck, lint en productiebuild geslaagd. De bestaande homepage-/navigatie-/axe-test is op desktop, mobiel en tablet uitgevoerd: drie geslaagd. Een extra controle op 320 px bevestigt geen horizontale overflow en een header van 88 px. Openen en sluiten van de nieuwe bezoekroute met Enter is apart gecontroleerd. De actuele homepagebeelden staan onder `docs/qa/`.
