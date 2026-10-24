@@ -3,6 +3,7 @@
 *.php text eol=lf
 Dockerfile text eol=lf
 content/raw/** -text
+content/raw/** -whitespace
 *.png binary
 *.jpg binary
 *.webp binary
