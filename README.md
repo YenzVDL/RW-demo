@@ -45,6 +45,8 @@ Herhaal `npm run cms:setup` voor een herimport. Ongewijzigde records worden niet
 
 De bouwmachine gebruikt deze optie. Dit wijzigt geen systeem-PATH, installeert geen service en bindt PHP en MariaDB alleen aan loopback. De officiële PHP- en MariaDB-downloads worden met SHA-256 gecontroleerd. Een bestaande Visual C++ x64-runtime is vereist voor PHP.
 
+De onderstaande installatie voert u één keer uit. Stop een draaiende `npm run dev` eerst met **Ctrl+C**: Windows vergrendelt het Next.js-bestand zolang die preview draait, waardoor `npm ci` anders `EPERM` kan geven. Een bestaand `.env`-bestand en reeds uitgepakte runtimebestanden blijven bij opnieuw uitvoeren behouden.
+
 ```powershell
 npm ci
 npm run secrets:init
@@ -62,6 +64,8 @@ npm run dev
 De runtime maakt `.env.local` met een application password voor het lokale test-CMS. MariaDB luistert op `127.0.0.1:3307`, WordPress op `127.0.0.1:8080`. De PHP-server is een ontwikkelserver. Stop de runtime met Ctrl+C. `runtime:setup` is bewust op PHP 8.4.27 vastgezet; als de officiële actuele download verandert, gebruik de officiële archieven of werk de pin en checksum bewust bij.
 
 Voor een gewone herstart zijn alleen `npm run runtime:windows` en `npm run dev` nodig. De database, media en configuratie staan onder `.runtime/`, buiten Git. Gebruik deze runtime niet tegelijk met Compose op dezelfde poorten.
+
+Als beide processen al draaien, kunt u direct **http://127.0.0.1:3000/** openen. U hoeft `npm ci` of de installatiecommando’s dan niet opnieuw uit te voeren.
 
 ## Brononderzoek en import
 

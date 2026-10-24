@@ -4,6 +4,13 @@ import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 if(process.platform!=='win32')throw Error('Windows-helper; gebruik Docker Compose op andere platformen.');
 await fs.mkdir('.runtime',{recursive:true});
+const installedFiles=['php/php.exe','php/ext/php_mysqli.dll','mariadb/mariadb-11.4.10-winx64/bin/mariadbd.exe','wp/wordpress/wp-includes/version.php'];
+const installed=await Promise.all(installedFiles.map(file=>fs.access(path.join('.runtime',file)).then(()=>true,()=>false)));
+if(installed.every(Boolean)){
+  console.log('De lokale PHP-, MariaDB- en WordPress-bestanden zijn al aanwezig. Opnieuw uitpakken is niet nodig.');
+  console.log('Start met npm run runtime:windows, tenzij de runtime al draait.');
+  process.exit(0);
+}
 const releases=await(await fetch('https://windows.php.net/downloads/releases/releases.json')).json();
 const php=releases['8.4'];
 if(php.version!=='8.4.27')throw Error('Vastgezette PHP-versie verschilt van de actuele download. Gebruik de officiële PHP-archieven of Docker; wijzig de pin bewust.');
