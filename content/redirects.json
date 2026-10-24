@@ -1,0 +1,37 @@
+[
+  {
+    "source": "/anbi",
+    "destination": "/over-ons/verantwoording",
+    "permanent": true
+  },
+  {
+    "source": "/de-medewerkers",
+    "destination": "/over-ons/team",
+    "permanent": true
+  },
+  {
+    "source": "/jaarverslagen",
+    "destination": "/over-ons/verantwoording",
+    "permanent": true
+  },
+  {
+    "source": "/werken-bij",
+    "destination": "/vrijwilliger-worden",
+    "permanent": true
+  },
+  {
+    "source": "/en/svra-2",
+    "destination": "/en/about/svra",
+    "permanent": true
+  },
+  {
+    "source": "/svra",
+    "destination": "/over-ons/svra",
+    "permanent": true
+  },
+  {
+    "source": "/en/home-english",
+    "destination": "/en",
+    "permanent": true
+  }
+]

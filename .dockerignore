@@ -1,0 +1,8 @@
+node_modules
+.next
+.env*
+.runtime
+.git
+test-results
+playwright-report
+content/import-reports

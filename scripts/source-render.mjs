@@ -1,0 +1,13 @@
+import {chromium} from '@playwright/test';
+import fs from 'node:fs/promises';
+await fs.mkdir('docs/qa',{recursive:true});
+const browser=await chromium.launch({headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:1000}});
+await page.goto('https://rechtswinkelamsterdam.nl/',{waitUntil:'domcontentloaded',timeout:45000});
+await page.waitForLoadState('load',{timeout:30000}).catch(()=>{});
+await page.locator('#load').waitFor({state:'hidden',timeout:30000}).catch(()=>{});
+await page.screenshot({path:'docs/qa/source-desktop.png'});
+const summary=await page.evaluate(()=>({title:document.title,headings:[...document.querySelectorAll('h1,h2,h3')].map(x=>x.textContent),logo:[...document.images].filter(x=>/logo|rechtswinkel/i.test(x.alt)).slice(0,4).map(x=>({src:x.src,alt:x.alt}))}));
+await fs.writeFile('docs/qa/source-render.json',JSON.stringify(summary,null,2));
+console.log(summary);
+await browser.close();

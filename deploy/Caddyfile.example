@@ -1,0 +1,9 @@
+# Replace domains with domains you control. Do not point them at the source site.
+www.example.invalid {
+    encode zstd gzip
+    reverse_proxy frontend:3000
+}
+cms.example.invalid {
+    encode gzip
+    reverse_proxy wordpress:80
+}

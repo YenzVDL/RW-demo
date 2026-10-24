@@ -1,0 +1,356 @@
+[
+  {
+    "id": 738,
+    "date": "2023-02-13T10:16:22",
+    "date_gmt": "2023-02-13T10:16:22",
+    "guid": {
+      "rendered": "https://rechtswinkelamsterdam.nl/?p=738"
+    },
+    "modified": "2023-02-13T10:16:22",
+    "modified_gmt": "2023-02-13T10:16:22",
+    "slug": "non-conformiteit-bij-koop",
+    "status": "publish",
+    "type": "post",
+    "link": "https://rechtswinkelamsterdam.nl/2023/02/13/non-conformiteit-bij-koop/",
+    "title": {
+      "rendered": "Non-conformiteit bij koop"
+    },
+    "content": {
+      "rendered": "<p><strong>Non-conformiteit bij koop</strong></p>\n<p>Non-conformiteit; klinkt ingewikkelder dan het is. Het betekent simpelweg dat het product dat u gekocht heeft niet doet wat het zou moeten doen. Het product bevat niet de eigenschappen die het zou moeten bevatten. De oplossing; u kunt het product retourneren en uw geld terug vragen. Echter, er is een belangrijk vereiste waar u moet voldoen; de onderzoeksplicht.</p>\n<p>Deze plicht houdt in dat u niet blindelings een product koopt, maar eerst onderzoek doet naar wat u koopt. Stel, u koopt een tweedehands auto; dan dient bijvoorbeeld gecheckt te worden of de koplampen, remlicht, cruise control, snelheidsmeter en koppeling het doen, alvorens u tot koop overgaat. Kortom, er wordt niet verwacht dat u een specialist bent, er dient enkel gekeken te worden naar de belangrijkste onderdelen van de auto. Wanneer u verzaakt om deze plicht te vervullen, bestaat de mogelijkheid dat ontbinding van de koop niet meer mogelijk is.</p>\n<p>Tegenover deze onderzoeksplicht van de koper, staat de mededelingsplicht van de verkoper. De verkoper dient mededeling te doen over de gebreken van het product. Uit de Nederlandse rechtspraak wordt ook duidelijk dat deze mededelingsplicht zwaarder weegt dan uw onderzoeksplicht.</p>\n<p>Geconcludeerd kan worden dat het ten eerste bij elke koop belangrijk is dat u het product onderzoekt. Simpelweg controleren of het product voldoet aan de minimale eisen die u mag verwachten. Mocht u deze plicht schenden, betekent dit dus niet direct dat u uw geld kwijt bent. De verkoper van het product draagt in het Nederlandse recht namelijk evenveel verantwoordelijkheid en is verplicht u op de hoogte te stellen van de gebreken. Dus wees niet bang bij het kopen van tweedehands producten, maar zorg er wel voor dat u goed onderzoekt wat u koopt.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Non-conformiteit bij koop Non-conformiteit; klinkt ingewikkelder dan het is. Het betekent simpelweg dat het product dat u gekocht heeft niet doet wat het zou moeten doen. Het product bevat niet de eigenschappen die het zou moeten bevatten. De oplossing; u kunt het product retourneren en uw geld terug vragen. Echter, er is een belangrijk vereiste&hellip;</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-738",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "hentry",
+      "category-uncategorized",
+      "category-1",
+      "description-off"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/posts/738",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/comments?post=738"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/posts/738/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 739,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/posts/738/revisions/739"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/media?parent=738"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/categories?post=738"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/tags?post=738"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "date": "2019-09-06T08:29:44",
+    "date_gmt": "2019-09-06T08:29:44",
+    "guid": {
+      "rendered": "https://rechtswinkelamsterdam.nl/?p=1"
+    },
+    "modified": "2020-03-18T17:20:59",
+    "modified_gmt": "2020-03-18T17:20:59",
+    "slug": "hello-world",
+    "status": "publish",
+    "type": "post",
+    "link": "https://rechtswinkelamsterdam.nl/2019/09/06/hello-world/",
+    "title": {
+      "rendered": "Hello world!"
+    },
+    "content": {
+      "rendered": "\r\n<p class=\"wp-block-paragraph\">Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\r\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-1",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "hentry",
+      "category-uncategorized",
+      "category-1",
+      "description-off"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/posts/1",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/comments?post=1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/posts/1/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 438,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/posts/1/revisions/438"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/media?parent=1"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/categories?post=1"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/tags?post=1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "date": "2016-12-15T10:56:13",
+    "date_gmt": "2016-12-15T10:56:13",
+    "guid": {
+      "rendered": "https://the7.io/business-one-page/?p=1"
+    },
+    "modified": "2016-12-15T10:56:13",
+    "modified_gmt": "2016-12-15T10:56:13",
+    "slug": "hello-world-2",
+    "status": "publish",
+    "type": "post",
+    "link": "https://rechtswinkelamsterdam.nl/2016/12/15/hello-world-2/",
+    "title": {
+      "rendered": "Hello world!"
+    },
+    "content": {
+      "rendered": "<p>Welcome to <a href=\"https://the7.io/\">The7 &#8211; Ultimate WordPress Theme Sites</a>. This is your first post. Edit or delete it, then start blogging!</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Welcome to The7 &#8211; Ultimate WordPress Theme Sites. This is your first post. Edit or delete it, then start blogging!</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "class_list": [
+      "post-18",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "hentry",
+      "category-uncategorised",
+      "category-2",
+      "description-off"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/posts/18",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/comments?post=18"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/posts/18/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/media?parent=18"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/categories?post=18"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://rechtswinkelamsterdam.nl/wp-json/wp/v2/tags?post=18"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

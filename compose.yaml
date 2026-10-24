@@ -1,0 +1,83 @@
+name: rechtswinkel
+services:
+  db:
+    image: mariadb:11.4.10@sha256:3b4dfcc32247eb07adbebec0793afae2a8eafa6860ec523ee56af4d3dec42f7f
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: rechtswinkel
+      MARIADB_USER: rwa
+      MARIADB_PASSWORD: ${DB_PASSWORD:?Run npm run secrets:init}
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?Set DB_ROOT_PASSWORD}
+    volumes:
+      - database:/var/lib/mysql
+    healthcheck:
+      test: [CMD, healthcheck.sh, --connect, --innodb_initialized]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+  wordpress:
+    image: wordpress:7.1.3-php8.4-apache@sha256:edbfa4a140f7c5950435f5737538ad83d25af4661b74b990d7ec1eff3bec99a8
+    restart: unless-stopped
+    depends_on:
+      db: {condition: service_healthy}
+    ports: ["127.0.0.1:8080:80"]
+    environment: &wp-env
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: rechtswinkel
+      WORDPRESS_DB_USER: rwa
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD}
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_ENVIRONMENT_TYPE', 'local');
+        define('DISALLOW_FILE_EDIT', true);
+      RWA_FRONTEND_URL: http://frontend:3000
+      RWA_PUBLIC_FRONTEND_URL: http://localhost:3000
+      RWA_PREVIEW_SECRET: ${PREVIEW_SECRET:?Set PREVIEW_SECRET}
+      RWA_REVALIDATE_SECRET: ${REVALIDATE_SECRET:?Set REVALIDATE_SECRET}
+    volumes:
+      - wordpress:/var/www/html
+      - ./wordpress/plugins/rwa-headless:/var/www/html/wp-content/plugins/rwa-headless:ro
+    healthcheck:
+      test: [CMD, php, -r, "exit(@fsockopen('localhost',80)?0:1);"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+  frontend:
+    build:
+      context: .
+      args:
+        WORDPRESS_PUBLIC_URL: ${WORDPRESS_PUBLIC_URL:-http://localhost:8080}
+        SITE_STAGE: ${SITE_STAGE:-staging}
+    restart: unless-stopped
+    depends_on:
+      wordpress: {condition: service_healthy}
+    ports: ["127.0.0.1:3000:3000"]
+    environment:
+      WORDPRESS_URL: http://wordpress
+      WORDPRESS_PUBLIC_URL: ${WORDPRESS_PUBLIC_URL:-http://localhost:8080}
+      SITE_URL: ${SITE_URL:-http://localhost:3000}
+      SITE_STAGE: ${SITE_STAGE:-staging}
+      CONTENT_MODE: wordpress
+      PREVIEW_SECRET: ${PREVIEW_SECRET:?Set PREVIEW_SECRET}
+      REVALIDATE_SECRET: ${REVALIDATE_SECRET:?Set REVALIDATE_SECRET}
+    volumes:
+      - frontend-cache:/app/.next/cache
+  bootstrap:
+    image: wordpress:cli-php8.4@sha256:c33cbd5fa6508a6515c57d6851edf15c3bf54583d41bb32c79190d2bf269534a
+    user: "33:33"
+    profiles: [tools]
+    depends_on:
+      wordpress: {condition: service_healthy}
+    environment:
+      <<: *wp-env
+      WP_ADMIN_USER: ${WP_ADMIN_USER:?Set WP_ADMIN_USER}
+      WP_ADMIN_PASSWORD: ${WP_ADMIN_PASSWORD:?Set WP_ADMIN_PASSWORD}
+      WP_ADMIN_EMAIL: ${WP_ADMIN_EMAIL:?Set WP_ADMIN_EMAIL}
+    volumes:
+      - wordpress:/var/www/html
+      - ./wordpress/plugins/rwa-headless:/var/www/html/wp-content/plugins/rwa-headless:ro
+      - ./scripts:/bootstrap:ro
+    entrypoint: [/bin/sh, /bootstrap/docker-bootstrap.sh]
+volumes:
+  database:
+  wordpress:
+  frontend-cache:

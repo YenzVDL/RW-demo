@@ -1,0 +1,769 @@
+[
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2019/10/rsz_1rsz_logorwa.png",
+    "sourceId": 232,
+    "localPath": "/assets/rsz_1rsz_logorwa.png",
+    "filename": "rsz_1rsz_logorwa.png",
+    "width": 260,
+    "height": 75,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Bestaand organisatielogo",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2023/07/Rapport-inzake-de-jaarstukken-2018.pdf",
+    "sourceId": 811,
+    "localPath": "/assets/Rapport-inzake-de-jaarstukken-2018.pdf",
+    "filename": "Rapport-inzake-de-jaarstukken-2018.pdf",
+    "width": null,
+    "height": null,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Document uit het bestaande documentenoverzicht",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2023/07/Rapport-inzake-de-jaarstukken-2019.pdf",
+    "sourceId": 812,
+    "localPath": "/assets/Rapport-inzake-de-jaarstukken-2019.pdf",
+    "filename": "Rapport-inzake-de-jaarstukken-2019.pdf",
+    "width": null,
+    "height": null,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Document uit het bestaande documentenoverzicht",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2023/07/Rapport-inzake-de-jaarrekening-2020.pdf",
+    "sourceId": 808,
+    "localPath": "/assets/Rapport-inzake-de-jaarrekening-2020.pdf",
+    "filename": "Rapport-inzake-de-jaarrekening-2020.pdf",
+    "width": null,
+    "height": null,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Document uit het bestaande documentenoverzicht",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2023/07/Rapport-inzake-de-jaarrekening-2021.pdf",
+    "sourceId": 809,
+    "localPath": "/assets/Rapport-inzake-de-jaarrekening-2021.pdf",
+    "filename": "Rapport-inzake-de-jaarrekening-2021.pdf",
+    "width": null,
+    "height": null,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Document uit het bestaande documentenoverzicht",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2023/07/Rapport-inzake-de-jaarrekening-2022.pdf",
+    "sourceId": 810,
+    "localPath": "/assets/Rapport-inzake-de-jaarrekening-2022.pdf",
+    "filename": "Rapport-inzake-de-jaarrekening-2022.pdf",
+    "width": null,
+    "height": null,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Document uit het bestaande documentenoverzicht",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2024/09/Jaarverslag-2023.pdf",
+    "sourceId": 843,
+    "localPath": "/assets/Jaarverslag-2023.pdf",
+    "filename": "Jaarverslag-2023.pdf",
+    "width": null,
+    "height": null,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Document uit het bestaande documentenoverzicht",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2024/09/Jaarrekening-2023.pdf",
+    "sourceId": 841,
+    "localPath": "/assets/Jaarrekening-2023.pdf",
+    "filename": "Jaarrekening-2023.pdf",
+    "width": null,
+    "height": null,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Document uit het bestaande documentenoverzicht",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/07/Jaarrekening-2024-Stichting-Rechtswinkel-Amsterdam.pdf",
+    "sourceId": 996,
+    "localPath": "/assets/Jaarrekening-2024-Stichting-Rechtswinkel-Amsterdam.pdf",
+    "filename": "Jaarrekening-2024-Stichting-Rechtswinkel-Amsterdam.pdf",
+    "width": null,
+    "height": null,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Document uit het bestaande documentenoverzicht",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2024/10/ANBI-publicatie-2023.pdf",
+    "sourceId": 933,
+    "localPath": "/assets/ANBI-publicatie-2023.pdf",
+    "filename": "ANBI-publicatie-2023.pdf",
+    "width": null,
+    "height": null,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Document uit het bestaande documentenoverzicht",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2024/09/Beleidsplan-2024.pdf",
+    "sourceId": 845,
+    "localPath": "/assets/Beleidsplan-2024.pdf",
+    "filename": "Beleidsplan-2024.pdf",
+    "width": null,
+    "height": null,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Document uit het bestaande documentenoverzicht",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-17.04.07-20250428-Rechtswinkel0018-scaled.jpg",
+    "sourceId": 979,
+    "localPath": "/assets/2025-04-28-17.04.07-20250428-Rechtswinkel0018-scaled.jpg",
+    "filename": "2025-04-28-17.04.07-20250428-Rechtswinkel0018-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-17.04.07-20250428-Rechtswinkel0018-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.04.07-20250428-Rechtswinkel0018-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.04.07-20250428-Rechtswinkel0018-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-17.25.58-20250428-Rechtswinkel0102-scaled.jpg",
+    "sourceId": 980,
+    "localPath": "/assets/2025-04-28-17.25.58-20250428-Rechtswinkel0102-scaled.jpg",
+    "filename": "2025-04-28-17.25.58-20250428-Rechtswinkel0102-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-17.25.58-20250428-Rechtswinkel0102-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.25.58-20250428-Rechtswinkel0102-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.25.58-20250428-Rechtswinkel0102-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-17.06.42-20250428-Rechtswinkel0031-scaled.jpg",
+    "sourceId": 978,
+    "localPath": "/assets/2025-04-28-17.06.42-20250428-Rechtswinkel0031-scaled.jpg",
+    "filename": "2025-04-28-17.06.42-20250428-Rechtswinkel0031-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-17.06.42-20250428-Rechtswinkel0031-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.06.42-20250428-Rechtswinkel0031-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.06.42-20250428-Rechtswinkel0031-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-17.16.10-20250428-Rechtswinkel0070-scaled.jpg",
+    "sourceId": 975,
+    "localPath": "/assets/2025-04-28-17.16.10-20250428-Rechtswinkel0070-scaled.jpg",
+    "filename": "2025-04-28-17.16.10-20250428-Rechtswinkel0070-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-17.16.10-20250428-Rechtswinkel0070-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.16.10-20250428-Rechtswinkel0070-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.16.10-20250428-Rechtswinkel0070-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-17.19.48-20250428-Rechtswinkel0083-scaled.jpg",
+    "sourceId": 974,
+    "localPath": "/assets/2025-04-28-17.19.48-20250428-Rechtswinkel0083-scaled.jpg",
+    "filename": "2025-04-28-17.19.48-20250428-Rechtswinkel0083-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-17.19.48-20250428-Rechtswinkel0083-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.19.48-20250428-Rechtswinkel0083-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.19.48-20250428-Rechtswinkel0083-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2024/10/20240419-rechtswinkel0016-scaled.jpg",
+    "sourceId": 876,
+    "localPath": "/assets/20240419-rechtswinkel0016-scaled.jpg",
+    "filename": "20240419-rechtswinkel0016-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/20240419-rechtswinkel0016-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/20240419-rechtswinkel0016-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/20240419-rechtswinkel0016-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-17.08.17-20250428-Rechtswinkel0033-scaled.jpg",
+    "sourceId": 977,
+    "localPath": "/assets/2025-04-28-17.08.17-20250428-Rechtswinkel0033-scaled.jpg",
+    "filename": "2025-04-28-17.08.17-20250428-Rechtswinkel0033-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-17.08.17-20250428-Rechtswinkel0033-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.08.17-20250428-Rechtswinkel0033-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.08.17-20250428-Rechtswinkel0033-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2024/10/20240419-rechtswinkel2348-scaled.jpg",
+    "sourceId": 881,
+    "localPath": "/assets/20240419-rechtswinkel2348-scaled.jpg",
+    "filename": "20240419-rechtswinkel2348-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/20240419-rechtswinkel2348-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/20240419-rechtswinkel2348-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/20240419-rechtswinkel2348-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-17.43.14-20250428-Rechtswinkel0151-scaled.jpg",
+    "sourceId": 969,
+    "localPath": "/assets/2025-04-28-17.43.14-20250428-Rechtswinkel0151-scaled.jpg",
+    "filename": "2025-04-28-17.43.14-20250428-Rechtswinkel0151-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-17.43.14-20250428-Rechtswinkel0151-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.43.14-20250428-Rechtswinkel0151-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.43.14-20250428-Rechtswinkel0151-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-17.12.11-20250428-Rechtswinkel0057-scaled.jpg",
+    "sourceId": 976,
+    "localPath": "/assets/2025-04-28-17.12.11-20250428-Rechtswinkel0057-scaled.jpg",
+    "filename": "2025-04-28-17.12.11-20250428-Rechtswinkel0057-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-17.12.11-20250428-Rechtswinkel0057-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.12.11-20250428-Rechtswinkel0057-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.12.11-20250428-Rechtswinkel0057-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-17.52.19-20250428-Rechtswinkel0201-scaled.jpg",
+    "sourceId": 966,
+    "localPath": "/assets/2025-04-28-17.52.19-20250428-Rechtswinkel0201-scaled.jpg",
+    "filename": "2025-04-28-17.52.19-20250428-Rechtswinkel0201-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-17.52.19-20250428-Rechtswinkel0201-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.52.19-20250428-Rechtswinkel0201-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.52.19-20250428-Rechtswinkel0201-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-18.15.27-20250428-Rechtswinkel0219-scaled.jpg",
+    "sourceId": 964,
+    "localPath": "/assets/2025-04-28-18.15.27-20250428-Rechtswinkel0219-scaled.jpg",
+    "filename": "2025-04-28-18.15.27-20250428-Rechtswinkel0219-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-18.15.27-20250428-Rechtswinkel0219-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-18.15.27-20250428-Rechtswinkel0219-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-18.15.27-20250428-Rechtswinkel0219-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-18.36.55-20250428-Rechtswinkel1266-scaled.jpg",
+    "sourceId": 963,
+    "localPath": "/assets/2025-04-28-18.36.55-20250428-Rechtswinkel1266-scaled.jpg",
+    "filename": "2025-04-28-18.36.55-20250428-Rechtswinkel1266-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-18.36.55-20250428-Rechtswinkel1266-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-18.36.55-20250428-Rechtswinkel1266-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-18.36.55-20250428-Rechtswinkel1266-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-17.49.06-20250428-Rechtswinkel0186-scaled.jpg",
+    "sourceId": 967,
+    "localPath": "/assets/2025-04-28-17.49.06-20250428-Rechtswinkel0186-scaled.jpg",
+    "filename": "2025-04-28-17.49.06-20250428-Rechtswinkel0186-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-17.49.06-20250428-Rechtswinkel0186-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.49.06-20250428-Rechtswinkel0186-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.49.06-20250428-Rechtswinkel0186-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-17.46.03-20250428-Rechtswinkel0163-scaled.jpg",
+    "sourceId": 968,
+    "localPath": "/assets/2025-04-28-17.46.03-20250428-Rechtswinkel0163-scaled.jpg",
+    "filename": "2025-04-28-17.46.03-20250428-Rechtswinkel0163-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-17.46.03-20250428-Rechtswinkel0163-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.46.03-20250428-Rechtswinkel0163-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.46.03-20250428-Rechtswinkel0163-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-18.18.55-20250428-Rechtswinkel0231-scaled.jpg",
+    "sourceId": 981,
+    "localPath": "/assets/2025-04-28-18.18.55-20250428-Rechtswinkel0231-scaled.jpg",
+    "filename": "2025-04-28-18.18.55-20250428-Rechtswinkel0231-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-18.18.55-20250428-Rechtswinkel0231-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-18.18.55-20250428-Rechtswinkel0231-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-18.18.55-20250428-Rechtswinkel0231-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-17.22.17-20250428-Rechtswinkel0090-scaled.jpg",
+    "sourceId": 973,
+    "localPath": "/assets/2025-04-28-17.22.17-20250428-Rechtswinkel0090-scaled.jpg",
+    "filename": "2025-04-28-17.22.17-20250428-Rechtswinkel0090-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-17.22.17-20250428-Rechtswinkel0090-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.22.17-20250428-Rechtswinkel0090-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.22.17-20250428-Rechtswinkel0090-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2024/10/20240419-rechtswinkel3458-scaled.jpg",
+    "sourceId": 880,
+    "localPath": "/assets/20240419-rechtswinkel3458-scaled.jpg",
+    "filename": "20240419-rechtswinkel3458-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/20240419-rechtswinkel3458-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/20240419-rechtswinkel3458-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/20240419-rechtswinkel3458-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-18.13.36-20250428-Rechtswinkel0207-scaled.jpg",
+    "sourceId": 965,
+    "localPath": "/assets/2025-04-28-18.13.36-20250428-Rechtswinkel0207-scaled.jpg",
+    "filename": "2025-04-28-18.13.36-20250428-Rechtswinkel0207-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-18.13.36-20250428-Rechtswinkel0207-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-18.13.36-20250428-Rechtswinkel0207-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-18.13.36-20250428-Rechtswinkel0207-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/05/2025-04-28-17.29.05-20250428-Rechtswinkel0116-scaled.jpg",
+    "sourceId": 970,
+    "localPath": "/assets/2025-04-28-17.29.05-20250428-Rechtswinkel0116-scaled.jpg",
+    "filename": "2025-04-28-17.29.05-20250428-Rechtswinkel0116-scaled.jpg",
+    "width": 2560,
+    "height": 1707,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/2025-04-28-17.29.05-20250428-Rechtswinkel0116-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.29.05-20250428-Rechtswinkel0116-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/2025-04-28-17.29.05-20250428-Rechtswinkel0116-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2023/05/Kopie-van-DSC00214-scaled.jpg",
+    "sourceId": 779,
+    "localPath": "/assets/Kopie-van-DSC00214-scaled.jpg",
+    "filename": "Kopie-van-DSC00214-scaled.jpg",
+    "width": 2560,
+    "height": 1706,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Medewerker zoals gekoppeld op /de-medewerkers/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": [
+      {
+        "localPath": "/assets/Kopie-van-DSC00214-scaled-480.webp",
+        "width": 480
+      },
+      {
+        "localPath": "/assets/Kopie-van-DSC00214-scaled-960.webp",
+        "width": 960
+      },
+      {
+        "localPath": "/assets/Kopie-van-DSC00214-scaled-1440.webp",
+        "width": 1440
+      }
+    ]
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2026/02/Medium-AOShearman_Wordmark_Progress-Green_RGB.jpg",
+    "sourceId": 1024,
+    "localPath": "/assets/Medium-AOShearman_Wordmark_Progress-Green_RGB.jpg",
+    "filename": "Medium-AOShearman_Wordmark_Progress-Green_RGB.jpg",
+    "width": 1024,
+    "height": 203,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Partnerlogo op de Nederlandse homepage",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2019/10/LL.jpg",
+    "sourceId": 219,
+    "localPath": "/assets/LL.jpg",
+    "filename": "LL.jpg",
+    "width": 894,
+    "height": 244,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Partnerlogo op de Nederlandse homepage",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2020/03/Stibbe.jpg",
+    "sourceId": 520,
+    "localPath": "/assets/Stibbe.jpg",
+    "filename": "Stibbe.jpg",
+    "width": 1063,
+    "height": 473,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Partnerlogo op de Nederlandse homepage",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2020/03/raad_voor_rechtsbijstand_logo.jpg",
+    "sourceId": 522,
+    "localPath": "/assets/raad_voor_rechtsbijstand_logo.jpg",
+    "filename": "raad_voor_rechtsbijstand_logo.jpg",
+    "width": 600,
+    "height": 200,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Partnerlogo op de Nederlandse homepage",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2025/09/Scherm­afbeelding-2025-09-17-om-13.14.59.png",
+    "sourceId": 1008,
+    "localPath": "/assets/Scherm_afbeelding-2025-09-17-om-13.14.59.png",
+    "filename": "Scherm_afbeelding-2025-09-17-om-13.14.59.png",
+    "width": 956,
+    "height": 348,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Partnerlogo op de Nederlandse homepage",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  },
+  {
+    "sourceUrl": "https://rechtswinkelamsterdam.nl/wp-content/uploads/2024/10/Statuten-Rechtswinkel-gewaarmerkt.pdf",
+    "sourceId": 931,
+    "localPath": "/assets/Statuten-Rechtswinkel-gewaarmerkt.pdf",
+    "filename": "Statuten-Rechtswinkel-gewaarmerkt.pdf",
+    "width": null,
+    "height": null,
+    "language": "nl",
+    "existingAlt": "",
+    "context": "Bestaand document gelinkt vanuit https://rechtswinkelamsterdam.nl/anbi/",
+    "fetchedAt": "2026-10-24T17:18:12.757Z",
+    "variants": []
+  }
+]

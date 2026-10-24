@@ -1,0 +1,9 @@
+* text=auto
+*.sh text eol=lf
+*.php text eol=lf
+Dockerfile text eol=lf
+content/raw/** -text
+*.png binary
+*.jpg binary
+*.webp binary
+*.pdf binary
